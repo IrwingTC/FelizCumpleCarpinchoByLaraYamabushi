@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('IMG/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #manga-image {
+    max-width: 100%;
+    height: auto;
+    margin: 50px 0;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  button {
+    padding: 15px 55px;
+    margin: 0 100px;
+    background-color: #FF9B00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #DF8700;
+  }
+  footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }  
